@@ -39,6 +39,12 @@ Follow these steps to set up the project:
     ./task2.sh
     ```
 
+6. To run an `.awk` file, use the following command:
+
+    ```sh
+    gawk -f path/to/script.awk path/to/inputfile.csv
+    ```
+
 ## Additional Notes
 
 - Make sure your browser is up to date for the best experience.
