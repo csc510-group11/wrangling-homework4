@@ -21,8 +21,27 @@ Follow these steps to set up the project:
     cd wrangling-homework4
     ```
 
+3. **Make the shell scripts executable:**
+
+    ```sh
+    chmod +x task1.sh task2.sh
+    ```
+
+4. **Run the `task1.sh` script to kill the `infinite.sh` script:**
+
+    ```sh
+    ./task1.sh
+    ```
+
+5. **Run the [task2.sh](http://_vscodecontentref_/1) script to process the [sample.txt](http://_vscodecontentref_/2) file:**
+
+    ```sh
+    ./task2.sh
+    ```
 
 ## Additional Notes
 
 - Make sure your browser is up to date for the best experience.
 - If you encounter any issues, refer to the project's documentation or seek help from the community.
+- To run the `awk` scripts, ensure you have `gawk` installed on your system.
+- To test the scripts using `pytest`, ensure you have `pytest` installed and run the tests from the [tests](http://_vscodecontentref_/3) directory.
