@@ -1,4 +1,3 @@
-# filepath: /home/nazia/Desktop/Nazia/CSC510/wrangling-homework4/test_task2.py
 import subprocess
 
 def test_task2():
