@@ -14,18 +14,17 @@ function age_mean(age_sum,total,   i,mean)
 
 BEGIN {
     FS=",";
-    total = 0;
     age = 0;
     }
 {
     if (NR > 1)
     {
         age += $7
-        age_arr[total] = $7
-        total++
+        age_arr[NR-1] = $7
     }    
 }
 END {
+    total = NR-1
     printf("Calculate the average age w/o using functions:\n")
     avg_age = age / total
     printf("Sum of ages:\t\t %d\nTotal Passengers:\t %d\nAverage of age:\t\t %.2f\n",age, total, avg_age)
